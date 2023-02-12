@@ -258,6 +258,7 @@ li {
 .custom-color-nav {
     color: white;
 }
+
 .footer-height {
     /* height: 705px; */
 }
@@ -310,7 +311,7 @@ li {
     font-size: 12px;
 }
 
-.Uline li a:hover {
+.Uline a:hover {
     text-decoration: underline;
 }
 
@@ -326,29 +327,30 @@ li {
         font-size: 42px;
     }
 }
-    /* footer adjustment */
+
+/* footer adjustment */
 
 
-    @media all and (min-width:678px) and (max-width: 991px) {
-        .fonts1 {
-            font-size: 54px;
-        }
+@media all and (min-width:678px) and (max-width: 991px) {
+    .fonts1 {
+        font-size: 54px;
     }
+}
 
-    @media all and (min-width:992px) and (max-width: 1199px) {
-        .fonts1 {
-            font-size: 56px;
-        }
+@media all and (min-width:992px) and (max-width: 1199px) {
+    .fonts1 {
+        font-size: 56px;
     }
+}
 
-    @media all and (min-width:1200px) and (max-width: 1399px) {
-        .fonts1 {
-            font-size: 58px;
-        }
+@media all and (min-width:1200px) and (max-width: 1399px) {
+    .fonts1 {
+        font-size: 58px;
     }
+}
 
-    @media all and (min-width:1400px) {
-        .fonts1 {
-            font-size: 58px;
-        }
+@media all and (min-width:1400px) {
+    .fonts1 {
+        font-size: 58px;
     }
+}
