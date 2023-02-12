@@ -258,7 +258,6 @@ li {
 .custom-color-nav {
     color: white;
 }
-
 .footer-height {
     /* height: 705px; */
 }
@@ -311,6 +310,10 @@ li {
     font-size: 12px;
 }
 
+.Uline li a:hover {
+    text-decoration: underline;
+}
+
 /* ************************************************************************************************ */
 @media all and (max-width: 575px) {
     .fonts1 {
@@ -322,7 +325,7 @@ li {
     .fonts1 {
         font-size: 42px;
     }
-
+}
     /* footer adjustment */
 
 
