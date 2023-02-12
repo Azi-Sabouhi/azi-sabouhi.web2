@@ -1,0 +1,351 @@
+.dv1 {
+    height: 330px;
+    background-color: black;
+}
+
+.navbarNav1 {
+    height: 44px;
+    line-height: 44px;
+    padding: 0;
+}
+
+.navfont {
+    font-size: calc(8px + 0.3vw);
+}
+
+.navBgCustom {
+    background-color: rgba(0, 0, 0, 0.88);
+    /* filter: blur(2px); */
+}
+
+.navBgCustom2 {
+    filter: blur(2px);
+}
+
+
+.padding0 {
+    padding: 0;
+
+}
+
+.fs1 {
+    font-size: 12px;
+    /* color: white; ???????????????????????????????????????????????*/
+}
+
+li {
+    padding-left: 15px;
+}
+
+.box1-button {
+    width: 460px;
+    height: 80px;
+    /* background-color: bisque; */
+}
+
+#button1 {
+    width: 182px;
+    height: 48px;
+    font-size: 17px;
+    background-color: black;
+    transition: all 250ms linear 100ms;
+    color: white;
+    font-weight: 500;
+
+}
+
+#button1:hover {
+    background-color: white;
+    color: black;
+}
+
+.fonts1 {
+    /* font-size: 56px; */
+    font-weight: 700;
+    background: -webkit-linear-gradient(0deg, #6a5578 0%, #99bfd8 50%, #41587a 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 3vh;
+}
+
+.dv2 {
+    height: 150px;
+    background-color: black;
+}
+
+.bg-box2 {
+    height: 350px;
+    /* width: 100%; */
+    overflow: hidden;
+    background-image: url("../images/hero_homepod_announce__gmwsq6zqqcya_medium.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 1068px 617px;
+}
+
+.box1-part3 {
+    color: rgb(110, 110, 115);
+    /* font-size: calc(12px + 1vw); */
+}
+
+.bluelink {
+    text-decoration: none;
+    color: #2997ff;
+    font-size: 19px;
+    padding-left: 30px;
+    transition: all 200ms linear 50ms;
+}
+
+.bluelink:hover {
+    text-decoration: underline;
+}
+
+.icon-placement {
+    position: relative;
+    top: 6px;
+}
+
+.custom-devider {
+    height: 12px;
+}
+
+.box2-h4 {
+    color: white;
+}
+
+.bg-box3 {
+    height: 350px;
+    /* width: 100%; */
+    overflow: hidden;
+    background-image: url("../images/hero_macmini_preorder__ixuialh97nyq_medium.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 1068px 617px;
+}
+
+.bg-box4 {
+    height: 350px;
+    /* width: 100%; */
+    overflow: hidden;
+    background-image: url("../images/hero_mbp_preorder__caf0s6im2nqq_medium.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 1068px 617px;
+}
+
+/* -------------------------------------------------------double boxes */
+
+.bg-box5 {
+    height: 580px;
+    overflow: hidden;
+    border-width: 0px 6px 0px 12px;
+    border-style: solid;
+    border-color: white;
+    box-sizing: border-box;
+    background-image: url("../images/promo_bhm__d8b9z5rlwjgy_large_2x.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 1262px 580px;
+}
+
+.bg-box6 {
+    height: 580px;
+    overflow: hidden;
+    border-width: 0px 12px 0px 6px;
+    border-style: solid;
+    border-color: white;
+    box-sizing: border-box;
+    background-image: url("../images/promo_apple_watch_series_8__ch7rexplmihe_large_2x.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 1262px 580px;
+}
+
+.bg-box7 {
+    height: 580px;
+    overflow: hidden;
+    border-width: 0px 6px 0px 12px;
+    border-style: solid;
+    border-color: white;
+    box-sizing: border-box;
+    background-image: url("../images/promo_iphone14pro__4n4twj56fzmu_large_2x1.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 1262px 580px;
+}
+
+.bg-box8 {
+    height: 580px;
+    overflow: hidden;
+    border-width: 0px 12px 0px 6px;
+    border-style: solid;
+    border-color: white;
+    box-sizing: border-box;
+    background-image: url("../images/promo_iphone14__b9mz75yhy02u_large_2x.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 1262px 580px;
+}
+
+.bg-box9 {
+    height: 580px;
+    overflow: hidden;
+    border-width: 0px 6px 0px 12px;
+    border-style: solid;
+    border-color: white;
+    box-sizing: border-box;
+    background-image: url("../images/promo__sw58lbodkmqq_large_2x.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 1262px 580px;
+}
+
+.bg-box10 {
+    height: 580px;
+    overflow: hidden;
+    border-width: 0px 12px 0px 6px;
+    border-style: solid;
+    border-color: white;
+    box-sizing: border-box;
+    background-image: url("../images/tile__cauwwcyyn9hy_large_2x.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 1262px 580px;
+}
+
+
+#red-a {
+    text-decoration: none;
+}
+
+#red-a:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.dv2d {
+    /* height: 180px; */
+    margin-top: 50px;
+}
+
+.img-logo-s {
+    width: 32%;
+    margin-bottom: 10px;
+}
+
+.img-logo-s1 {
+    width: 25%;
+    margin-bottom: 10px;
+}
+
+.letter-s {
+    letter-spacing: 1px;
+}
+
+.heading-property {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.custom-button {
+    margin-bottom: 100px;
+    margin-left: 50px;
+    color: black;
+
+}
+
+.custom-color-nav {
+    color: white;
+}
+
+.footer-height {
+    /* height: 705px; */
+}
+
+.ul-prop1 {
+    list-style-type: none;
+    font-size: 12px;
+}
+
+.li-margint {
+    margin-top: 10px;
+}
+
+.listcustomB2 {
+    list-style-type: none;
+    font-size: calc(8px + 0.5vw);
+}
+
+.listcustomB2 li {
+    padding: 4px;
+}
+
+.listcustomB2 a {
+    text-decoration: none;
+    color: rgb(47, 47, 47);
+}
+
+.liHover a:hover {
+    text-decoration: underline;
+}
+
+.listcustomB3 {
+
+    font-size: calc(8px + 0.5vw);
+}
+
+.customLocation {
+    bottom: 5vh;
+    left: 5vw;
+    /* z-index: 1; */
+}
+
+.customLocation2 {
+    bottom: 3.5vh;
+    left: 25vw;
+    font-size: calc(8px + 0.3vw);
+}
+
+.customFs {
+    font-size: 12px;
+}
+
+/* ************************************************************************************************ */
+@media all and (max-width: 575px) {
+    .fonts1 {
+        font-size: 38px;
+    }
+}
+
+@media all and (min-width:576px) and (max-width: 767px) {
+    .fonts1 {
+        font-size: 42px;
+    }
+
+    /* footer adjustment */
+
+
+    @media all and (min-width:678px) and (max-width: 991px) {
+        .fonts1 {
+            font-size: 54px;
+        }
+    }
+
+    @media all and (min-width:992px) and (max-width: 1199px) {
+        .fonts1 {
+            font-size: 56px;
+        }
+    }
+
+    @media all and (min-width:1200px) and (max-width: 1399px) {
+        .fonts1 {
+            font-size: 58px;
+        }
+    }
+
+    @media all and (min-width:1400px) {
+        .fonts1 {
+            font-size: 58px;
+        }
+    }
