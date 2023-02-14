@@ -140,6 +140,43 @@ li {
 }
 
 /* ------------------------------------------------------ */
+/* ============================================== box21e*/
+.bgbox21e {
+    background-image: url("../images/hero_iphone14pro__e5xbgo5ffhg2_large_2x.jpg");
+    background-position: bottom center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 100vh; */
+}
+
+.picbox31e {
+    transform: scale(1.2);
+    box-sizing: border-box;
+}
+
+.box31e {
+    box-sizing: border-box;
+    overflow: hidden;
+    height: 99vh;
+}
+
+.mtbox31e {
+    top: 14vh;
+}
+
+.mpbox31e {
+    margin-top: -20px;
+}
+
+.colbox31e {
+    color: #2997ff;
+}
+
+.fbox31e {
+    font-size: smaller;
+}
+
+/* =============================================== */
 .bg-box3 {
     height: 350px;
     /* width: 100%; */
