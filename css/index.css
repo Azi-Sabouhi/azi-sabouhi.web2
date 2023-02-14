@@ -277,6 +277,11 @@ li {
     background-size: 1262px 580px;
 }
 
+.alice:hover {
+    font-size: large;
+    color: aqua;
+    text-shadow: 2px 2px 2px rgb(251, 3, 255), -2px -2px 2px rgb(0, 34, 255);
+}
 
 #red-a {
     text-decoration: none;
