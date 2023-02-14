@@ -11,6 +11,7 @@
 
 .navfont {
     font-size: calc(8px + 0.3vw);
+    z-index: 5;
 }
 
 .navBgCustom {
@@ -113,6 +114,32 @@ li {
     color: white;
 }
 
+/*--------------------------------------------- video box */
+#background-video {
+    height: 95vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.wbox1e {
+    width: 32%;
+}
+
+.mtbox1e {
+    margin-bottom: -40px;
+}
+
+.pline1e:hover {
+    text-decoration: underline;
+}
+
+/* ------------------------------------------------------ */
 .bg-box3 {
     height: 350px;
     /* width: 100%; */
