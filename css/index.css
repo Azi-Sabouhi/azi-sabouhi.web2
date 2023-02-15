@@ -84,6 +84,10 @@ li {
     background-size: 1068px 617px;
 }
 
+.cpoint {
+    cursor: pointer;
+}
+
 .box1-part3 {
     color: rgb(110, 110, 115);
     /* font-size: calc(12px + 1vw); */
@@ -140,6 +144,40 @@ li {
 }
 
 /* ------------------------------------------------------ */
+.goToTop {
+    width: 30px;
+    height: 30px;
+    /* top: 500px;
+    right: 20px; */
+    border: 2px solid rgba(160, 160, 252, 0.718);
+    border-radius: 50%;
+    background-color: rgba(0, 255, 255, 0.266);
+    position: fixed;
+    z-index: 5;
+    text-shadow: 2px 2px 3px rgb(255, 255, 255), -2px -2px 3px rgb(255, 254, 254), 2px -2px 3px white, -2px 2px 3px white;
+    transition: all 300ms linear 0s;
+}
+
+.tpUp {
+    top: 45vh;
+    right: 20px;
+}
+
+.tpDown {
+    top: 55vh;
+    right: 20px;
+}
+
+.goToTop:hover {
+    border: 2px dotted rgba(0, 0, 255, 0.776);
+    background-color: rgba(50, 212, 227, 0.568);
+    box-shadow: 4px 4px 10px rgb(94, 94, 95);
+    width: 38px;
+    height: 38px;
+    right: 15px;
+}
+
+
 /* ============================================== box21e*/
 .bgbox21e {
     background-image: url("../images/hero_iphone14pro__e5xbgo5ffhg2_large_2x.jpg");
@@ -327,6 +365,7 @@ li {
 .custom-color-nav {
     color: white;
 }
+
 
 .footer-height {
     /* height: 705px; */
