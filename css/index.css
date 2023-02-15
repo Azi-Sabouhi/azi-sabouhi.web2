@@ -135,10 +135,9 @@ li {
     width: 32%;
 } */
 
-.mtbox1e {
-    /* margin-bottom: -40px; */
+/* .mtbox1e {
     margin-bottom: calc(-2rem + -5px);
-}
+} */
 
 .pline1e:hover {
     text-decoration: underline;
@@ -194,7 +193,7 @@ li {
 } */
 
 .box31e {
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     overflow: hidden;
     height: 99vh;
 }
@@ -465,9 +464,13 @@ li {
         width: 50%;
     }
 
+    .mtbox1e {
+        margin-bottom: calc(-2rem + 5px);
+    }
+
     /* ---------------------------------------------bg size adjustment single box3 from top */
     .picbox31e {
-        transform: scale(0.8);
+        transform: scale(1);
         box-sizing: border-box;
     }
 
@@ -509,14 +512,18 @@ li {
 
     }
 
-    /* ----------------------------------------------------- */
+    /* ------------------------------------------------video text----- */
     .wbox1e {
         width: 50%;
     }
 
+    .mtbox1e {
+        margin-bottom: calc(-2rem + -10px);
+    }
+
     /* ----------------------------------------------single box3 from top bg adjustment */
     .picbox31e {
-        transform: scale(0.8);
+        transform: scale(1);
         box-sizing: border-box;
     }
 
@@ -559,7 +566,11 @@ li {
 
     /* --------------------------------------------music video-------- */
     .wbox1e {
-        width: 32%;
+        width: 35%;
+    }
+
+    .mtbox1e {
+        margin-bottom: calc(-2rem + -5px);
     }
 
     /* ---------------------------------------------bg size adjustment single box3 from top */
@@ -610,6 +621,10 @@ li {
         width: 32%;
     }
 
+    .mtbox1e {
+        margin-bottom: calc(-2rem + 1vw);
+    }
+
     /* -------------------------------------------------single box 3 bg size adjustment */
     .picbox31e {
         transform: scale(1.2);
@@ -655,10 +670,15 @@ li {
     }
 
 
-    /* ------------------------------------------------------- */
+    /* -------------------------------------------------video text------ */
     .wbox1e {
         width: 32%;
     }
+
+    .mtbox1e {
+        margin-bottom: calc(-3rem + -5px);
+    }
+
 
     /* ------------------------------------------------------single box3 from top bg adjustment */
     .picbox31e {
@@ -727,9 +747,13 @@ li {
 
     } */
 
-    /* ------------------------------------------- */
+    /* -------------------------------------------video text */
     .wbox1e {
         width: 32%;
+    }
+
+    .mtbox1e {
+        margin-bottom: calc(-3rem + -5px);
     }
 
     /* ------------------------------------------single box3 from top bg adjustment */
@@ -745,9 +769,10 @@ li {
         font-weight: 600;
     }
 
-    /* --------------------------------------------red-white logo */
+    /* --------------------------------------------apple card logo */
     .img-logo-s1 {
         width: 32%;
         margin-bottom: 10px;
     }
+
 }
