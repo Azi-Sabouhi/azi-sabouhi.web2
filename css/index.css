@@ -131,12 +131,13 @@ li {
     z-index: -1;
 }
 
-.wbox1e {
+/* .wbox1e {
     width: 32%;
-}
+} */
 
 .mtbox1e {
-    margin-bottom: -40px;
+    /* margin-bottom: -40px; */
+    margin-bottom: calc(-2rem + -5px);
 }
 
 .pline1e:hover {
@@ -187,10 +188,10 @@ li {
     /* height: 100vh; */
 }
 
-.picbox31e {
+/* .picbox31e {
     transform: scale(1.2);
     box-sizing: border-box;
-}
+} */
 
 .box31e {
     box-sizing: border-box;
@@ -240,7 +241,6 @@ li {
 .bg-box5 {
     height: 580px;
     overflow: hidden;
-    border-width: 0px 6px 0px 12px;
     border-style: solid;
     border-color: white;
     box-sizing: border-box;
@@ -253,7 +253,6 @@ li {
 .bg-box6 {
     height: 580px;
     overflow: hidden;
-    border-width: 0px 12px 0px 6px;
     border-style: solid;
     border-color: white;
     box-sizing: border-box;
@@ -266,7 +265,6 @@ li {
 .bg-box7 {
     height: 580px;
     overflow: hidden;
-    border-width: 0px 6px 0px 12px;
     border-style: solid;
     border-color: white;
     box-sizing: border-box;
@@ -279,7 +277,6 @@ li {
 .bg-box8 {
     height: 580px;
     overflow: hidden;
-    border-width: 0px 12px 0px 6px;
     border-style: solid;
     border-color: white;
     box-sizing: border-box;
@@ -292,7 +289,6 @@ li {
 .bg-box9 {
     height: 580px;
     overflow: hidden;
-    border-width: 0px 6px 0px 12px;
     border-style: solid;
     border-color: white;
     box-sizing: border-box;
@@ -305,7 +301,6 @@ li {
 .bg-box10 {
     height: 580px;
     overflow: hidden;
-    border-width: 0px 12px 0px 6px;
     border-style: solid;
     border-color: white;
     box-sizing: border-box;
@@ -340,19 +335,13 @@ li {
     margin-bottom: 10px;
 }
 
-.img-logo-s1 {
+/* .img-logo-s1 {
     width: 25%;
     margin-bottom: 10px;
-}
+} */
 
 .letter-s {
     letter-spacing: 1px;
-}
-
-.heading-property {
-    font-size: 40px;
-    text-align: center;
-    font-weight: 600;
 }
 
 .custom-button {
@@ -428,20 +417,168 @@ li {
     .fonts1 {
         font-size: 38px;
     }
+
+    /* -----------------------------------------double boxes */
+
+    .bg-box5,
+    .bg-box7,
+    .bg-box9 {
+
+        border-width: 0px 0px 12px 0px;
+
+    }
+
+    .bg-box6,
+    .bg-box8,
+    .bg-box10 {
+
+        border-width: 0px;
+
+    }
+
+    /* .bg-box7 {
+
+        border-width: 0px 0px 12px 0px;
+
+    }
+
+    .bg-box8 {
+
+        border-width: 0px;
+
+    }
+
+    .bg-box9 {
+
+        border-width: 0px 0px 12px 0px;
+
+    }
+
+    .bg-box10 {
+
+        border-width: 0px;
+
+    } */
+
+    /* ----------------------------------------------------- */
+    .wbox1e {
+        width: 50%;
+    }
+
+    /* ---------------------------------------------bg size adjustment single box3 from top */
+    .picbox31e {
+        transform: scale(0.8);
+        box-sizing: border-box;
+    }
+
+    /* --------------------------------------------double box heading fs */
+    .heading-property {
+        font-size: calc(25px + 1vw);
+        text-align: center;
+        font-weight: 600;
+    }
+
+    /* --------------------------------------------red-white logo */
+    .img-logo-s1 {
+        width: 32%;
+        margin-bottom: 10px;
+    }
+
 }
 
 @media all and (min-width:576px) and (max-width: 767px) {
     .fonts1 {
         font-size: 42px;
     }
+
+    /* -----------------------------------------double boxes */
+
+    .bg-box5,
+    .bg-box7,
+    .bg-box9 {
+
+        border-width: 0px 0px 12px 0px;
+
+    }
+
+    .bg-box6,
+    .bg-box8,
+    .bg-box10 {
+
+        border-width: 0px;
+
+    }
+
+    /* ----------------------------------------------------- */
+    .wbox1e {
+        width: 50%;
+    }
+
+    /* ----------------------------------------------single box3 from top bg adjustment */
+    .picbox31e {
+        transform: scale(0.8);
+        box-sizing: border-box;
+    }
+
+    /* --------------------------------------------double box heading fs */
+    .heading-property {
+        font-size: calc(30px + 1vw);
+        text-align: center;
+        font-weight: 600;
+    }
+
+    /* --------------------------------------------red-white logo */
+    .img-logo-s1 {
+        width: 32%;
+        margin-bottom: 10px;
+    }
 }
 
-/* footer adjustment */
-
-
-@media all and (min-width:678px) and (max-width: 991px) {
+@media all and (min-width: 768px) and (max-width: 991px) {
     .fonts1 {
         font-size: 54px;
+    }
+
+    /* ----------------------------------------double boxes */
+
+    .bg-box5,
+    .bg-box7,
+    .bg-box9 {
+
+        border-width: 0px 6px 0px 12px;
+
+    }
+
+    .bg-box6,
+    .bg-box8,
+    .bg-box10 {
+
+        border-width: 0px 12px 0px 6px;
+
+    }
+
+    /* --------------------------------------------music video-------- */
+    .wbox1e {
+        width: 32%;
+    }
+
+    /* ---------------------------------------------bg size adjustment single box3 from top */
+    .picbox31e {
+        transform: scale(1.1);
+        box-sizing: border-box;
+    }
+
+    /* --------------------------------------------double box heading fs */
+    .heading-property {
+        font-size: calc(20px + 1vw);
+        text-align: center;
+        font-weight: 600;
+    }
+
+    /* --------------------------------------------red-white logo */
+    .img-logo-s1 {
+        width: 32%;
+        margin-bottom: 10px;
     }
 }
 
@@ -449,16 +586,168 @@ li {
     .fonts1 {
         font-size: 56px;
     }
+
+    /*----------------------------------------------- double boxes */
+
+    .bg-box5,
+    .bg-box7,
+    .bg-box9 {
+
+        border-width: 0px 6px 0px 12px;
+
+    }
+
+    .bg-box6,
+    .bg-box8,
+    .bg-box10 {
+
+        border-width: 0px 12px 0px 6px;
+
+    }
+
+    /* -------------------------------------------------music pic video------------ */
+    .wbox1e {
+        width: 32%;
+    }
+
+    /* -------------------------------------------------single box 3 bg size adjustment */
+    .picbox31e {
+        transform: scale(1.2);
+        box-sizing: border-box;
+    }
+
+    /* --------------------------------------------double box heading fs */
+    .heading-property {
+        font-size: calc(20px + 1vw);
+        text-align: center;
+        font-weight: 600;
+    }
+
+    /* --------------------------------------------red-white logo */
+    .img-logo-s1 {
+        width: 32%;
+        margin-bottom: 10px;
+    }
 }
+
 
 @media all and (min-width:1200px) and (max-width: 1399px) {
     .fonts1 {
         font-size: 58px;
+    }
+
+    /* -------------------------------------------double boxes */
+
+    .bg-box5,
+    .bg-box7,
+    .bg-box9 {
+
+        border-width: 0px 6px 0px 12px;
+
+    }
+
+    .bg-box6,
+    .bg-box8,
+    .bg-box10 {
+
+        border-width: 0px 12px 0px 6px;
+
+    }
+
+
+    /* ------------------------------------------------------- */
+    .wbox1e {
+        width: 32%;
+    }
+
+    /* ------------------------------------------------------single box3 from top bg adjustment */
+    .picbox31e {
+        transform: scale(1.2);
+        box-sizing: border-box;
+    }
+
+    /* --------------------------------------------double box heading fs */
+    .heading-property {
+        font-size: calc(20px + 1vw);
+        text-align: center;
+        font-weight: 600;
+    }
+
+    /* --------------------------------------------red-white logo */
+    .img-logo-s1 {
+        width: 32%;
+        margin-bottom: 10px;
     }
 }
 
 @media all and (min-width:1400px) {
     .fonts1 {
         font-size: 58px;
+    }
+
+    /* -------------------------------double boxes */
+
+    .bg-box5,
+    .bg-box7,
+    .bg-box9 {
+
+        border-width: 0px 6px 0px 12px;
+
+    }
+
+    .bg-box6,
+    .bg-box8,
+    .bg-box10 {
+
+        border-width: 0px 12px 0px 6px;
+
+    }
+
+    /* .bg-box7 {
+
+        border-width: 0px 6px 0px 12px;
+
+    }
+
+    .bg-box8 {
+
+        border-width: 0px 12px 0px 6px;
+
+    }
+
+    .bg-box9 {
+
+        border-width: 0px 6px 0px 12px;
+
+    }
+
+    .bg-box10 {
+
+        border-width: 0px 12px 0px 6px;
+
+    } */
+
+    /* ------------------------------------------- */
+    .wbox1e {
+        width: 32%;
+    }
+
+    /* ------------------------------------------single box3 from top bg adjustment */
+    .picbox31e {
+        transform: scale(1.2);
+        box-sizing: border-box;
+    }
+
+    /* --------------------------------------------double box heading fs */
+    .heading-property {
+        font-size: calc(20px + 1vw);
+        text-align: center;
+        font-weight: 600;
+    }
+
+    /* --------------------------------------------red-white logo */
+    .img-logo-s1 {
+        width: 32%;
+        margin-bottom: 10px;
     }
 }
