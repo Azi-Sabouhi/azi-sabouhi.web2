@@ -179,13 +179,13 @@ li {
 
 
 /* ============================================== box21e*/
-.bgbox21e {
+/* .bgbox21e {
     background-image: url("../images/hero_iphone14pro__e5xbgo5ffhg2_large_2x.jpg");
     background-position: bottom center;
     background-size: cover;
     background-repeat: no-repeat;
-    /* height: 100vh; */
-}
+    height: 100vh;++++++++++++++++++
+} */
 
 /* .picbox31e {
     transform: scale(1.2);
@@ -459,19 +459,24 @@ li {
 
     } */
 
-    /* ----------------------------------------------------- */
+    /* -----------------------------------------------music logo------ */
     .wbox1e {
-        width: 50%;
+        width: 80%;
     }
 
     .mtbox1e {
-        margin-bottom: calc(-2rem + 5px);
+        margin-bottom: calc(-2rem + -5px);
     }
 
     /* ---------------------------------------------bg size adjustment single box3 from top */
     .picbox31e {
         transform: scale(1);
         box-sizing: border-box;
+    }
+
+    .bgbox21e {
+        width: 150%;
+
     }
 
     /* --------------------------------------------double box heading fs */
@@ -514,17 +519,25 @@ li {
 
     /* ------------------------------------------------video text----- */
     .wbox1e {
-        width: 50%;
+        width: 70%;
     }
 
     .mtbox1e {
-        margin-bottom: calc(-2rem + -10px);
+        margin-bottom: calc(-2rem + -15px);
     }
 
     /* ----------------------------------------------single box3 from top bg adjustment */
     .picbox31e {
         transform: scale(1);
         box-sizing: border-box;
+    }
+
+    .bgbox21e {
+        background-image: url("../images/hero_iphone14pro__e5xbgo5ffhg2_large_2x.jpg");
+        background-position: bottom center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* height: 100vh; */
     }
 
     /* --------------------------------------------double box heading fs */
@@ -566,17 +579,25 @@ li {
 
     /* --------------------------------------------music video-------- */
     .wbox1e {
-        width: 35%;
+        width: 50%;
     }
 
     .mtbox1e {
-        margin-bottom: calc(-2rem + -5px);
+        margin-bottom: calc(-2rem + -10px);
     }
 
     /* ---------------------------------------------bg size adjustment single box3 from top */
     .picbox31e {
         transform: scale(1.1);
         box-sizing: border-box;
+    }
+
+    .bgbox21e {
+        background-image: url("../images/hero_iphone14pro__e5xbgo5ffhg2_large_2x.jpg");
+        background-position: bottom center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* height: 100vh; */
     }
 
     /* --------------------------------------------double box heading fs */
@@ -618,17 +639,25 @@ li {
 
     /* -------------------------------------------------music pic video------------ */
     .wbox1e {
-        width: 32%;
+        width: 50%;
     }
 
     .mtbox1e {
-        margin-bottom: calc(-2rem + 1vw);
+        margin-bottom: calc(-3rem + -20px);
     }
 
     /* -------------------------------------------------single box 3 bg size adjustment */
     .picbox31e {
         transform: scale(1.2);
         box-sizing: border-box;
+    }
+
+    .bgbox21e {
+        background-image: url("../images/hero_iphone14pro__e5xbgo5ffhg2_large_2x.jpg");
+        background-position: bottom center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* height: 100vh; */
     }
 
     /* --------------------------------------------double box heading fs */
@@ -672,11 +701,11 @@ li {
 
     /* -------------------------------------------------video text------ */
     .wbox1e {
-        width: 32%;
+        width: 50%;
     }
 
     .mtbox1e {
-        margin-bottom: calc(-3rem + -5px);
+        margin-bottom: calc(-3rem + -25px);
     }
 
 
@@ -684,6 +713,14 @@ li {
     .picbox31e {
         transform: scale(1.2);
         box-sizing: border-box;
+    }
+
+    .bgbox21e {
+        background-image: url("../images/hero_iphone14pro__e5xbgo5ffhg2_large_2x.jpg");
+        background-position: bottom center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* height: 100vh; */
     }
 
     /* --------------------------------------------double box heading fs */
@@ -760,6 +797,14 @@ li {
     .picbox31e {
         transform: scale(1.2);
         box-sizing: border-box;
+    }
+
+    .bgbox21e {
+        background-image: url("../images/hero_iphone14pro__e5xbgo5ffhg2_large_2x.jpg");
+        background-position: bottom center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* height: 100vh; */
     }
 
     /* --------------------------------------------double box heading fs */
