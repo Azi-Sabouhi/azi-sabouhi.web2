@@ -477,6 +477,10 @@ li {
         font-weight: 600;
     }
 
+    .txtshadow {
+        text-shadow: 1px 1px 3px rgb(0, 0, 0), -1px 1px 3px rgb(0, 0, 0);
+    }
+
     /* --------------------------------------------red-white logo */
     .img-logo-s1 {
         width: 32%;
