@@ -1,5 +1,5 @@
 .dv1 {
-    height: 350px;
+    height: 80vh;
     background-color: black;
 }
 
@@ -478,7 +478,7 @@ li {
     }
 
     .txtshadow {
-        text-shadow: 1px 1px 3px rgb(0, 0, 0), -1px 1px 3px rgb(0, 0, 0);
+        text-shadow: 1px 1px 3px #bc1123, -1px 1px 3px #bc1123;
     }
 
     /* --------------------------------------------red-white logo */
