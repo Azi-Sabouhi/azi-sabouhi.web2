@@ -1,5 +1,5 @@
 .dv1 {
-    height: 330px;
+    height: 250px;
     background-color: black;
 }
 
@@ -413,6 +413,10 @@ li {
 
 /* ************************************************************************************************ */
 @media all and (max-width: 575px) {
+    /* body {
+        margin-right: auto;
+    } */
+
     .fonts1 {
         font-size: 38px;
     }
@@ -434,30 +438,6 @@ li {
         border-width: 0px;
 
     }
-
-    /* .bg-box7 {
-
-        border-width: 0px 0px 12px 0px;
-
-    }
-
-    .bg-box8 {
-
-        border-width: 0px;
-
-    }
-
-    .bg-box9 {
-
-        border-width: 0px 0px 12px 0px;
-
-    }
-
-    .bg-box10 {
-
-        border-width: 0px;
-
-    } */
 
     /* -----------------------------------------------music logo------ */
     .wbox1e {
