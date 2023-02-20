@@ -1,21 +1,27 @@
 .dv1 {
-    height: 250px;
+    height: 350px;
     background-color: black;
 }
 
-.navbarNav1 {
-    height: 44px;
-    line-height: 44px;
-    padding: 0;
+.tcustom {
+    top: 20px;
+    left: 20px;
 }
 
-.navfont {
-    font-size: calc(8px + 0.3vw);
-    z-index: 5;
+.navbarNav1 {
+    height: 25px;
+    line-height: 25px;
+    padding: 0;
+    backdrop-filter: blur(2px), grayscale(20%);
 }
+
+/* .navfont {
+    font-size: calc(12px + 0.3vw);
+    z-index: 5;
+} */
 
 .navBgCustom {
-    background-color: rgba(0, 0, 0, 0.88);
+    background-color: rgba(20, 19, 19, 0.887);
     /* filter: blur(2px); */
 }
 
@@ -23,6 +29,11 @@
     filter: blur(2px);
 }
 
+.nav-smMode {
+    list-style-type: none;
+    /* display: flex;
+    align-items: center; */
+}
 
 .padding0 {
     padding: 0;
@@ -472,6 +483,12 @@ li {
         margin-bottom: 10px;
     }
 
+    /* ---------------------------------------------navigation fs */
+    .navfont {
+        font-size: calc(14px + 0.3vw);
+        z-index: 5;
+    }
+
 }
 
 @media all and (min-width:576px) and (max-width: 767px) {
@@ -531,6 +548,12 @@ li {
     .img-logo-s1 {
         width: 32%;
         margin-bottom: 10px;
+    }
+
+    /* ---------------------------------------------navigation fs */
+    .navfont {
+        font-size: calc(14px + 0.3vw);
+        z-index: 5;
     }
 }
 
@@ -592,6 +615,17 @@ li {
         width: 32%;
         margin-bottom: 10px;
     }
+
+    /* -------------------------------------------------navbar fs */
+    .navfont {
+        font-size: calc(9px + 0.3vw);
+        z-index: 5;
+    }
+
+    .custompad {
+        padding-left: 2px;
+        padding-right: 2px;
+    }
 }
 
 @media all and (min-width:992px) and (max-width: 1199px) {
@@ -651,6 +685,12 @@ li {
     .img-logo-s1 {
         width: 32%;
         margin-bottom: 10px;
+    }
+
+    /* ---------------------------------------------navigation fs */
+    .navfont {
+        font-size: calc(11px + 0.3vw);
+        z-index: 5;
     }
 }
 
@@ -714,6 +754,12 @@ li {
     .img-logo-s1 {
         width: 32%;
         margin-bottom: 10px;
+    }
+
+    /* ---------------------------------------------navigation fs */
+    .navfont {
+        font-size: calc(12px + 0.3vw);
+        z-index: 5;
     }
 }
 
@@ -798,6 +844,12 @@ li {
     .img-logo-s1 {
         width: 32%;
         margin-bottom: 10px;
+    }
+
+    /* ---------------------------------------------navigation fs */
+    .navfont {
+        font-size: calc(12px + 0.3vw);
+        z-index: 5;
     }
 
 }
