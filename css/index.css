@@ -1,0 +1,17 @@
+body {
+    background-color: rgba(150, 245, 214, 0.592);
+}
+
+.customHslider {
+    height: 500px;
+    line-height: 500px;
+}
+
+.customHgray {
+    height: 126px;
+    line-height: 126px;
+}
+
+.customHphoto1 {
+    height: 260px;
+}
