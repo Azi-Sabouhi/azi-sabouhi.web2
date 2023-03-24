@@ -493,6 +493,7 @@ li {
         z-index: 5;
     }
 
+    /* ---------------------------------------------------------last line */
 }
 
 @media all and (min-width:576px) and (max-width: 767px) {
@@ -559,6 +560,7 @@ li {
         font-size: calc(14px + 0.3vw);
         z-index: 5;
     }
+
 }
 
 @media all and (min-width: 768px) and (max-width: 991px) {
